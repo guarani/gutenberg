@@ -6,7 +6,8 @@ import { difference } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { BlockSettingsMenuControls, MenuItem } from '@wordpress/components';
+import { MenuItem } from '@wordpress/components';
+import { BlockSettingsMenuControls } from '@wordpress/block-editor';
 import { compose } from '@wordpress/compose';
 
 const isEverySelectedBlockAllowed = ( selected, allowed ) =>
